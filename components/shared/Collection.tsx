@@ -18,7 +18,7 @@ const Collection = ({
   emptyStateSubtext,
   page,
   totalPages = 0,
-  limit,
+  limit = 3,
   collectionType,
   urlParamName,
 }: CollectionProps) => {
